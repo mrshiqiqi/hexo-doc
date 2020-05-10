@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# 量化交易资源整合
 
-You can use the [editor on GitHub](https://github.com/mrshiqiqi/hexo-doc/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> 收集整理量化交易资源，**[开启共享时代]()**！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 关于本站点
+> 本站点是 [Hi Coder](http://hicoder.com.cn) 子站点，主要是用来收集整理有关量化交易的资源，包括**策略模型、开源框架、回测平台、数据接口、书籍材料等**。
+> 本站点公开共享，可从 [Github](https://github.com/mrshiqiqi/quantitative-resource-doc) Fork 下来进行学习与参与编辑。欢迎各位童鞋、大神们来贡献。（用共享来改变自己、改变时代)
 
-### Markdown
+## 捐助
+> 如果你觉得这个站点对你有帮助，那就请我喝杯咖啡吧 ☕
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](https://cdn.jsdelivr.net/gh/mrshiqiqi/resource/paycode.png)
 
-```markdown
-Syntax highlighted code block
+## 入群讨论
 
-# Header 1
-## Header 2
-### Header 3
+> 添加作者微信入群，扫描后请备注“QT-姓名”，例如：“QT-张三”，否则无法通过。
 
-- Bulleted
-- List
+<img src="https://cdn.jsdelivr.net/gh/mrshiqiqi/quantitative-resource-doc/_picture/image-20200509162148029.png" alt="image-20200509162148029" style="zoom:35%;" />
 
-1. Numbered
-2. List
+**声明**
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrshiqiqi/hexo-doc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+本站点旨在收集资源，不保证资源的有效性，请看官们理性看待，合理使用资源！！！另外，本站点收集的都是开源资源，如后期有资源不再开源或有侵权之嫌，请告知作者，鄙人将尽快撤出资源信息！
