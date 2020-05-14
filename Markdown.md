@@ -1,5 +1,3 @@
-## Markdown 语法
-
 > 优雅的 Markdwon 语法
 
 ## 标题
