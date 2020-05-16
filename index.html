@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>用Hexo快速搭建个人博客站点</title>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/mrshiqiqi/resource/keyboard1.ico" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
@@ -11,12 +12,13 @@
 </head>
 <body>
   <div id="app"></div>
+  <div id="gitalk-container"></div>
   <script>
     window.$docsify = {
       name: '首页',
-      repo: '',  // github 地址
+      repo: 'mrshiqiqi/hexo-doc',  // github 地址
       loadSidebar: true,
-      // autoHeader: true,
+      autoHeader: true,
       loadNavbar: true,
       subMaxLevel: 3,
       // coverpage: true,
@@ -26,16 +28,22 @@
       // 启用相对路径
       // relativePath: true,
       // logo: 'favicon.ico',
-      // themeColor: '#3F51B5',  // 主题颜色
+      // themeColor: '#008B8B',  // 主题颜色
       mergeNavbar: true,  // 小设备合并侧边栏
-      // 在github上编辑
-      plugins: [
-      EditOnGithubPlugin.create(
-        'https://github.com/mrshiqiqi/hexo-doc', 
-        null, 
-        '在GitHub上编辑')
-      ],
     }
+  </script>
+  <script>
+    var gitalk = new Gitalk({
+    clientID: '0e0e3db9c1b4a0d25fde',
+    clientSecret: 'cb34e630250fe72447dc87f5e69e89741808a1f6',
+    repo: 'mrshiqiqi/hexo-doc',
+    owner: 'mrshiqiqi',
+    admin: ['mrshiqiqi'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!-- 图片缩放 -->
@@ -43,7 +51,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <!-- 在github上编辑 -->
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </body>
 </html>
