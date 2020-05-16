@@ -13,7 +13,7 @@
 
 ## 入群讨论
 
-> 添加作者微信入群，扫描后请备注“hexo-姓名”，例如：“hexo-张三”，否则无法通过。
+> 添加作者微信入群，扫描后请备注“hicoder-姓名”，例如：“hicoder-张三”，否则无法通过。
 
 <img src="https://cdn.jsdelivr.net/gh/mrshiqiqi/quantitative-resource-doc/_picture/image-20200509162148029.png" alt="image-20200509162148029" style="zoom:35%;" />
 
