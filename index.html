@@ -8,7 +8,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app"></div>
@@ -31,37 +31,22 @@
       // themeColor: '#008B8B',  // 主题颜色
       mergeNavbar: true,  // 小设备合并侧边栏
     }
-
-    var gitalk = new Gitalk({
-    clientID: '0e0e3db9c1b4a0d25fde',
-    clientSecret: 'cb34e630250fe72447dc87f5e69e89741808a1f6',
-    repo: 'mrshiqiqi/hexo-doc',
-    owner: 'mrshiqiqi',
-    admin: ['mrshiqiqi'],
-    id: location.href,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-    })
-
-    gitalk.render('gitalk-container')
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
-  var gitalk = new Gitalk({
-    clientID: '0e0e3db9c1b4a0d25fde',
-    clientSecret: 'cb34e630250fe72447dc87f5e69e89741808a1f6',
-    repo: 'mrshiqiqi/hexo-doc',
-    owner: 'mrshiqiqi',
-    admin: ['mrshiqiqi'],
-    id: location.href,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
+    const gitalk = new Gitalk({
+      clientID: 'Github Application Client ID',
+      clientSecret: 'Github Application Client Secret',
+      repo: 'Github repo',
+      owner: 'Github repo owner',
+      admin: ['Github repo collaborators, only these guys can initialize github issues'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
     })
-
-    gitalk.render('gitalk-container')
   </script>
 
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!-- 图片缩放 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
