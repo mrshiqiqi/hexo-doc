@@ -13,3 +13,4 @@
 * 附录
     * [Markdwon语法](Markdown)
     * [工具配置](工具使用)
+    * [Hexo常用命令](Hexo常用命令)
