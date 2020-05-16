@@ -28,12 +28,22 @@
       // logo: 'favicon.ico',
       // themeColor: '#3F51B5',  // 主题颜色
       mergeNavbar: true,  // 小设备合并侧边栏
+      // 在github上编辑
+      plugins: [
+      EditOnGithubPlugin.create(
+        'https://github.com/mrshiqiqi.github.io/hexo-doc', 
+        null, 
+        '在GitHub上编辑')
+      ],
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 图片缩放 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 在github上编辑 -->
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 </body>
 </html>
