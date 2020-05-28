@@ -2,6 +2,8 @@
 
 听说你想拥有一个自己的博客，但却不会自己搭建？👀别怕，让大树手把手、嘴对嘴的教你！！！🤪一切 SO EASY!
 
+[演示博客](https://hicoder.com.cn/hexo-github/)
+
 > 本站点为 [Hi Coder](http://hicoder.com.cn) 的子站点，是《用 Hxexo 快速搭建个人博客站点》视频的配套文档。如需访问视频课程，可点击右上角“课程”按钮。
 
 ![图片描述](https://cdn.jsdelivr.net/gh/mrshiqiqi/resource/hexo.png)
